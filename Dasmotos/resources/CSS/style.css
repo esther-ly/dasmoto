@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+p{
+  font-family: 'Karla';
+  line-height: 1.7;
+  text-align: left;
+}
+
+body {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+  font-family: 'Karla';
+}
+
+.header {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg");
+  height: 300px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header img {
+  margin-top: 50px;
+}
+
+.container{
+  text-align: center;
+}
+
+.item {
+  background-color: #E5E5E5;
+  width: 300px;
+  height: 660px;
+  padding: 8%;
+  margin: 10px 40px;
+}
+
+.item h2 {
+    text-align: center;
+    padding: 10px 40px;
+}
+
+.price {
+  color: #784842;
+  font-weight: bold;
+}
+
+#brush {
+  background-color: #D48A2A;
+  font-size: 32px;
+  color: white;
+}
+
+#frames {
+  background-color: #35B6AA;
+  font-size: 32px;
+  color: white;
+}
+
+#paint {
+  background-color: #D47155;
+  font-size: 32px;
+  color: white;
+}
+
+a {
+  color: #fff;
+  background: #8C8C8C;
+  padding: 10px 40px;
+  text-decoration: none;
+  transition: background .5s;
+}
+
+.box1 a:hover{
+  background: #D48A2A;
+}
+
+.box2 a:hover{
+  background: #35B6AA;
+}
+
+.box3 a:hover{
+  background: #D47155;
+}
+
+.footer {
+  background-color: #7DA2AA;
+  color: white;
+  height: 80px;
+  position:relative;
+}
+
+.box1 {
+  float: left;
+}
+
+.box2 {
+  float: left;
+}
+
+.box3 {
+  float: right;
+  margin-right: 75px;
+}
